@@ -3,63 +3,153 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video, div.gallery {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+div.gallery {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, div.gallery {
-	display: block;
+article,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+div.gallery {
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
+
 /*    End of reset    */
 
 /* this is the start of formatting */
-/* General */
+
 html {
-  font-size: 62.5%; /* Now 10px = 1rem */
+  font-size: 62.5%;
+  /* Now 10px = 1rem */
 }
 
 body {
-  font-size: 1.6rem; /* default font-size for document */
+  font-size: 1.6rem;
+  /* default font-size for document */
   font-family: Copperplate, Arial, Helvetica, sans-serif;
-  color: #f09d68;
-  background-color: #020239;
+  color: #DDCCDF;
+  background-color: #23481E;
   position: relative;
   line-height: 2rem;
   margin: 0;
@@ -67,180 +157,148 @@ body {
   box-sizing: border-box;
 }
 
-/* Header */
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 9rem;
-  background-color: #020239;
+  background-color: #23481E;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   z-index: 1;
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
-  font-family: Copperplate, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 4.2rem;
-  color: #f09d68;
-  line-height: 9rem;
+header h1 {
+  font-size: 3.5rem;
+  padding-left: 2rem;
+  white-space: nowrap;
+  color: #DDCCDF;
 }
 
-/* Navigation */
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 20rem;
-  padding: 2rem;
-  background-color: #020239;
-  z-index: 1;
+header nav {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-nav ul {
+
+header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-nav li {
-  margin-bottom: 2rem;
-}
-nav li:last-of-type {
-  margin-bottom: 0;
-}
-nav a {
-  text-decoration: none;
-  color: #f09d68;
-  font-size: 2.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-}
-nav a:hover {
-  text-decoration: underline;
 }
 
-/* Main */
-main {
-  margin-top: 9rem;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+header nav li {
+  margin: 2rem;
 }
+
+header nav a {
+  text-decoration: none;
+  color: #DDCCDF;
+  position: relative;
+}
+
+header nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #DDCCDF;
+  transition: transform 0.3s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+header nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/*    Main    */
+
+main {
+  padding: 17rem 17rem 3rem 3rem;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 main section {
+  margin: 0 auto;
   max-width: 50rem;
   min-width: 20rem;
-  margin-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2, h3, p {
-  margin: 0;
-  padding: 0;
-  color: #f09d68;
+
+main section article {
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2, h3 {
+
+h2,
+h3,
+p {
+  padding-top: 9.5rem;
+  margin-top: -9rem;
+  color: #DDCCDF;
+}
+
+h2,
+h3 {
   font-family: Copperplate, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3.6rem;
   line-height: 4.4rem;
   padding-bottom: 0.5rem;
+  color: #DDCCDF;
 }
+
 h3 {
   font-size: 2.8rem;
-  line-height: 3.6rem; 
+  line-height: 3.6rem;
+  color: #DDCCDF;
 }
+
 p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-bottom: 0.5rem;
+  color: #DDCCDF;
 }
 
 .highlight {
   font-weight: bold;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
 }
 
 a.source {
   text-decoration: none;
-  color: #f09d68;
+  color: #DDCCDF;
 }
-a.source:hover{
+
+a.source:hover {
   text-decoration: underline;
+  color: #DDCCDF;
 }
 
 .inline {
   display: inline;
-  letter-spacing: 0
+  letter-spacing: 0;
 }
 
-/* Paragraph styles */
-p {
-margin-bottom: 1.5rem;
+a.inline {
+  text-decoration: underline;
+  color: #DDCCDF;
 }
 
-/* Link styles */
-a {
-color: #f09d68;
-text-decoration: none;
-transition: all 0.3s ease;
+/* hidden on mobile */
+nav {
+  display: none;
 }
 
-a:hover {
-color: #020239;
-}
-
-/* Button styles */
-.button {
-display: inline-block;
-padding: 1rem 2rem;
-border: none;
-border-radius: 5px;
-background-color: #f09d68;
-color: #020239;
-font-size: 1.6rem;
-font-family: Copperplate, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-text-align: center;
-text-decoration: none;
-cursor: pointer;
-transition: all 0.3s ease;
-}
-
-.button:hover {
-background-color: #020239;
-color: #f09d68;
-}
-
-/* Footer styles */
-footer {
-background-color: #020239;
-color: #f09d68;
-text-align: center;
-padding: 2rem;
-}
-
-footer p {
-margin: 0;
-padding: 0;
-line-height: 2rem;
-}
-
-footer a {
-color: #f09d68;
-text-decoration: none;
-}
-
-footer a:hover {
-color: #fff;
-}
