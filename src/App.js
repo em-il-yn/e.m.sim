@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+const App = () => (
+  <html>
+    <head>
+      <title>Emilyn Sim</title>
+    </head>
+    <body>
+      <header>
+        <div id="header-container">
+          <h1>Emilyn Sim</h1>
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
+              </li>
+              <li>
+                <a href="/resources/SimEmilyn_Resume.pdf"> Resume </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
-    </div>
-  );
-}
+      <main>
+        <section>
+          <div className="gallery">
+            <img src="/resources/headshot.jpg" alt="current headshot" style={{width: '225px', height: '300px'}} />
+          </div>
+          <article>
+            <h2> About Me </h2>
+            <p> I am currently a Bachelor of Computer Science student at the University of British Columbia. 
+              I transitioned to computer science from communications, so I have a background in organizational communication. 
+              Check out my LinkedIn for an overview of my experience.</p>
+          </article>
+          <article>
+            <h2> Contact </h2>
+            <p> Vancouver BC | emmysim16@gmail.com | (250) 463 3294 </p>
+          </article>
+        </section>
+      </main>
+    </body>
+  </html>
+);
 
 export default App;
