@@ -1,20 +1,20 @@
 const App = () => (
   <html>
+    <header id="header" data-current-styles="navCenter">
+      <h1>Emilyn Sim</h1>
+      <nav>
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Technical Experience</a></li>
+          <li><a href="#">Communications Experience</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="site-wrapper">
       <head>
         <title>Emilyn Sim</title>
       </head>
       <body>
-        <header id="header" data-current-styles="navCenter">
-          <h1>Emilyn Sim</h1>
-          <nav>
-            <ul>
-              <li><a href="#">About Me</a></li>
-              <li><a href="#">Technical Experience</a></li>
-              <li><a href="#">Communications Experience</a></li>
-            </ul>
-          </nav>
-        </header>
         <main>
           <section>
             <div className="gallery">
