@@ -1,22 +1,21 @@
-import Cursor from "./Events/cursorEvent";
-import Communications from "./pages/Communications"; 
+import Cursor from "../Events/cursorEvent";
 
 
-const App = () => (
+const Technical = () => (
   <siteWrapper>
     <Cursor />
     <header>
-      <h1>Emilyn Sim</h1>
+      <h1>Technical</h1>
       <nav>
-        <a class="btn" href="/Technical.js">Technical Experience</a>
-        <a class="btn" href="/Communications.js">Communications Experience</a>
+        <a class="btn">Technical Experience</a>
+        <a class="btn">Communications Experience</a>
       </nav>
     </header>
 
     <div class="parent">
 
       <div class="div1">
-        <p class="name">Emilyn Sim</p>
+        <p class="name">Technical</p>
         <p class="cs">UBC Computer Science</p>
       </div>
 
@@ -57,4 +56,4 @@ const App = () => (
   </siteWrapper>
 );
 
-export default App;
+export default Technical;
