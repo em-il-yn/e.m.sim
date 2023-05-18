@@ -1,59 +1,39 @@
-import Cursor from "../Events/cursorEvent";
+// import Cursor from "./../Events/cursorEvent";
+// const Technical = () => {
+//   return (
+//   <html>
+//     <head>
+//       <title>Technical Experience</title>
+//     </head>
+//     <header>
+//       <p class="pagetop">Emilyn Sim</p>
+//     </header>
+//     <body>
+//       <Cursor />
+//       <section class="column">
+//         <section class="row">
+//           <section class="column">
+//             <h1>Emilyn Sim</h1>
+//             <h2>UBC Computer Science</h2>
+//             <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
+//           </section>
+//           <section class="column">
+//             <img class="gallery" src={require('./../resources/headshot.jpeg')}></img>
+//             <a class="links" href={require('./../resources/SimEmilyn_Resume.pdf')} alt="Resume">Resume</a>
+//             <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
+//             <a class="links" href="https://github.com/em-il-yn">GitHub</a>
+//           </section>
+//         </section>
+//       </section>
+//     </body>
+//     <footer>
+//       <section class="contact">
+//         <h2> Contact </h2>
+//         <p> Vancouver BC | esim01@student.ubc.ca | 250 463 3294 </p>
+//       </section>
+//     </footer>
+//   </html>
+// )
+//   }
 
-
-const Technical = () => (
-  <siteWrapper>
-    <Cursor />
-    <header>
-      <h1>Technical</h1>
-      <nav>
-        <a class="btn">Technical Experience</a>
-        <a class="btn">Communications Experience</a>
-      </nav>
-    </header>
-
-    <div class="parent">
-
-      <div class="div1">
-        <p class="name">Technical</p>
-        <p class="cs">UBC Computer Science</p>
-      </div>
-
-      <div class="div2">
-      <div class="headshot-container"><img src={require('./resources/headshot.jpeg')} class="headshot" alt="Headshot" scale="0.5" /></div>    
-      </div>
-
-      <div class="div3">
-        <ul class="accordion-items-container">
-          <li class="accordion-item">
-            <div class="accordian-divider" />
-            <b class="accordian">
-              <a class="accordian" href="resources/SimEmilyn_Resume.pdf" alt="Resume">Resume</a>
-            </b>
-          </li>
-          <li class="accordion-item">
-            <div class="accordian-divider" />
-            <b class="accordian">
-              <a class="accordian" href="www.facebook.com" alt="LinkedIn">LinkedIn</a>
-            </b>
-          </li>
-          <li class="accordion-item">
-            <div class="accordian-divider" />
-            <b class="accordian">
-              <a class="accordian" href="www.facebook.com" alt="LinkedIn">GitHub</a>
-            </b>
-            <div class="accordian-divider" />
-          </li>
-        </ul>
-      </div>
-    </div>
-    <footer>
-      <contactBox>
-        <p class="contact">Contact</p>
-        <p class="info">esim01@student.ubc.ca 250 463 3294</p>
-      </contactBox>
-    </footer>
-  </siteWrapper>
-);
-
-export default Technical;
+// export default Technical;
