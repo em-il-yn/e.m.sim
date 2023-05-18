@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Component } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Cursor from "./Events/cursorEvent";
 
@@ -30,149 +30,110 @@ const Button = (props) => {
     };
 
     return (
-        <button
-            style={btnStyle}
-            onMouseOver={handleHover}
-            onMouseOut={handleHover}
-        >
+        <Link to={props.to} style={btnStyle} onMouseOver={handleHover} onMouseOut={handleHover}>
             {props.text}
-        </button>
+        </Link>
     );
 };
 
+const Footer = () => {
+    return (
+        <footer>
+            <section class="contact">
+                <h2> Contact </h2>
+                <p> Vancouver BC | esim01@student.ubc.ca | 250 463 3294 </p>
+            </section>
+        </footer>
+    )
+}
 const Communications = () => {
     return (
-        <html>
-            <Cursor />
-
-            <div class="parent">
-
-                <div class="div1">
-                    <p class="name">Communications</p>
-                    <p class="cs">UBC Computer Science</p>
-                </div>
-
-                <div class="div2">
-                </div>
-
-                <div class="div3">
-                    <ul class="accordion-items-container">
-                        <li class="accordion-item">
-                            <div class="accordian-divider" />
-                            <b class="accordian">
-                                <a class="accordian" href="resources/SimEmilyn_Resume.pdf" alt="Resume">Resume</a>
-                            </b>
-                        </li>
-                        <li class="accordion-item">
-                            <div class="accordian-divider" />
-                            <b class="accordian">
-                                <a class="accordian" href="www.facebook.com" alt="LinkedIn">LinkedIn</a>
-                            </b>
-                        </li>
-                        <li class="accordion-item">
-                            <div class="accordian-divider" />
-                            <b class="accordian">
-                                <a class="accordian" href="www.facebook.com" alt="LinkedIn">GitHub</a>
-                            </b>
-                            <div class="accordian-divider" />
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </html>
+        <section class="column">
+            <section class="row">
+                <section class="column">
+                    <h1>Emilyn Sim</h1>
+                    <h2>BEEP BEEP</h2>
+                    <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
+                </section>
+                <section class="column">
+                    <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
+                    <a class="links" href="https://github.com/em-il-yn">GitHub</a>
+                </section>
+            </section>
+        </section>
     )
 }
 
 const Technical = () => {
     return (
-        <html>
-            <head>
-                <title>Technical Experience</title>
-            </head>
-            <body>
-                <Cursor />
+        <section class="column">
+            <section class="row">
                 <section class="column">
-                    <section class="row">
-                        <section class="column">
-                            <h1>Emilyn Sim</h1>
-                            <h2>UBC Computer Science</h2>
-                            <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
-                        </section>
-                        <section class="column">
-                            <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
-                            <a class="links" href="https://github.com/em-il-yn">GitHub</a>
-                        </section>
-                    </section>
+                    <h1>Emilyn Sim</h1>
+                    <h2>UBC Computer Science</h2>
+                    <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
                 </section>
-            </body>
-        </html>
+                <section class="column">
+                    <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
+                    <a class="links" href="https://github.com/em-il-yn">GitHub</a>
+                </section>
+            </section>
+        </section>
+
+
     )
 }
 
 const About = () => {
     return (
-        <html>
-            <body>
-                <Cursor />
+        <section class="column">
+            <section class="row">
                 <section class="column">
-                    <section class="row">
-                        <section class="column">
-                            <h1>Emilyn Sim</h1>
-                            <h2>UBC Computer Science</h2>
-                            <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
-                        </section>
-                        <section class="column">
-                            <img class="gallery" src={require('./resources/headshot.jpeg')}></img>
-                            <a class="links" href={require('./resources/SimEmilyn_Resume.pdf')} alt="Resume">Resume</a>
-                            <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
-                            <a class="links" href="https://github.com/em-il-yn">GitHub</a>
-                        </section>
-                    </section>
+                    <h1>Emilyn Sim</h1>
+                    <h2>UBC Computer Science</h2>
+                    <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
                 </section>
-            </body>
-        </html>
+                <section class="column">
+                    <img class="gallery" src={require('./resources/headshot.jpeg')}></img>
+                    <a class="links" href={require('./resources/SimEmilyn_Resume.pdf')} alt="Resume">Resume</a>
+                    <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
+                    <a class="links" href="https://github.com/em-il-yn">GitHub</a>
+                </section>
+            </section>
+        </section>
     )
 }
 
-const Menu = () => {
-    return (
-        <div>
-        <p className="pagetop">Emilyn Sim</p>
-        <Router>
-          <div>
-            <Button text="Technical Experience">
-              <Link to="/pages/Technical">Technical Experience</Link>
-            </Button>
-            <Button text="Communications Experience">
-              <Link to="/pages/Communications">Communications Experience</Link>
-            </Button>
-            <Button text="About Me">
-              <Link to="/pages/About">About</Link>
-            </Button>
-          </div>
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/pages/Communications" element={<Communications />} />
-            <Route path="/pages/Technical" element={<Technical />} />
-          </Routes>
-          <div>
-            <i>Emilyn Sim 2023</i>
-          </div>
-        </Router>
-      </div>
-    )
-}
 const App = () => {
     return (
-        <html>
-            <head>
-                <title>Emilyn Sim</title>
-            </head>
+
+        <div>
+            <Cursor />
             <header>
-                <Menu />
+                <p class="pagetop">Emilyn Sim</p>
+                <div>
+                    <Button text="Technical Experience" to="/Technical" />
+                    <Button text="Communications Experience" to="/Communications" />
+                    <Button text="About Me" to="/" />
+                </div>
             </header>
-        </html>
-    );
+
+            <Routes>
+
+                <Route path='/' element={<About />} />
+                <Route path='Technical' element={<Technical />} />
+                <Route path='/Communications' element={<Communications />} />
+
+            </Routes>
+
+            <Footer />
+            <div>
+                <br />
+                <em>Emilyn Sim 2023</em>
+            </div>
+        </div>
+    )
 }
+
 
 export default App;
