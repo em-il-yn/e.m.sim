@@ -154,7 +154,7 @@ body {
   margin: 0rem 1.5rem 1.5rem 0rem;
 }
 
-header {
+header.routes{
   font-family: Trebuchet MS;
   display: flex;
   flex-direction: row;
@@ -217,7 +217,10 @@ header nav a.btn:hover {
 }
 
 .site-wrapper {
-  padding-top:7rem;
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -231,19 +234,21 @@ main {
 section.row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  vertical-align: center;
   padding: 3rem;
+  width: fit-content;
   width: 100%;
 }
 
 section.column {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    vertical-align: center;
-    padding: 3rem;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: fit-content;
+  padding: 3rem;
+  width: 100%;
 }
 
 .contact {
@@ -266,7 +271,7 @@ main section article {
 }
 
 h2, h3, p {
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   color: #DDCCDF;
   text-align: left;
 }
@@ -275,10 +280,12 @@ h2 {
   font: 20px 'Helvetica Neue';
   color: #DDCCDF;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: left !important;
+  width:100%;
 }
 
 h3 {
-  font-size: 2.8rem;
+  font-size: 2rem;
   line-height: 3.6rem; 
   color: #DDCCDF;
 }
@@ -290,13 +297,14 @@ p {
 }
 
 .gallery {
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 100%;
-    max-width: 15rem;
+    max-width: 20rem;
     object-fit: cover;
+    align-self: left !important;
 }
 
 .headshot {
@@ -311,29 +319,16 @@ p {
 
 .links {
   font-family: Trebuchet MS;
-  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 0.2rem;
   color: #DDCCDF;
   text-decoration: none;
   position: relative;
-  padding-top:1rem;
+  padding-top:0.2rem;
 }
 
-.links::after {
-  content: "";
-  position: absolute;
-  bottom: 0.5rem;
-  left: 0;
-  width: 100%;
-  height: 0.2rem;
-  background-color: #DDCCDF;
-  transition: transform 0.3s ease-in-out;
-  transform: scaleX(0);
-  transform-origin: right;
-}
-
-.links:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.links:hover {
+  text-decoration: underline;
 }
 
 ul.accordion-items-container {
@@ -420,11 +415,6 @@ body h1 {
   padding-bottom:1rem;
 
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  transition: color 0.5s ease-in-out;
-}
-
-body h1:hover {
-  color: #FFFFFF;
 }
 
 p.cs {
@@ -436,26 +426,81 @@ p.cs {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-footer {
+skillContainer {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+
+  vertical-align: flex-start;
+  flex-direction: column;
+
+  margin-top: 5rem;
+  margin-left: 1rem;
+  width: 30rem;
+  height: 37rem;;
+  border: 2px solid #DDCCDF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5%;
+}
+
+.circle {
+  text-align: left;
+  font-size: 1.3rem;
+  margin: 1rem;
+  padding-right:3rem;
+  padding-left: 0rem;
+  line-height: 1.2rem;
+  padding-bottom: 0rem!important;
+  white-space: nowrap;
+}
+
+h3.circle {
+  text-align: left;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  height:5.6rem;
+  padding-right: 0rem!important;
+}
+
+h3.skills {
+  border-top: 1px solid #DDCCDF !important;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  padding-top:1rem;
+  padding-bottom:0rem;
+  margin-bottom:0rem;
+}
+
+.tech {
+  position: relative;
+  padding-top: 7rem;
+  font-size: 5rem;
+  width: 100%;
+
+  text-align: center!important;
+}
+
+ul.bullet-points {
+  list-style-type: disc;
+  text-align: left;
+  margin-left:2rem;
+  font-size:1rem;
+}
+
+.date {
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer.page {
   border-top: 1px solid #DDCCDF;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+  top: 100%;
   height:fit-content;
-}
-
-contactBox {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 76.61px 1.19px 0;
-  gap: 1.37px;
-  position: absolute;
-  width: 167px;
-  height: 61.56px;
-  left: 877px;
-  top: 137.22px;
 }
 
 p.info {
