@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/About/static/css/main.3f6f26c1.css",
-    "main.js": "/About/static/js/main.1b1dc75b.js",
-    "static/media/SFU2.png": "/About/static/media/SFU2.4fa563aeee97342a64cb.png",
-    "static/media/SFU1.png": "/About/static/media/SFU1.7c247be51bfe32611a92.png",
-    "static/media/Skoden1.png": "/About/static/media/Skoden1.abce685c4a514c7531f2.png",
-    "static/media/Skoden2.png": "/About/static/media/Skoden2.9de8a64bd7b5edb62631.png",
-    "static/media/Skoden3.png": "/About/static/media/Skoden3.9553db19d6061c0c4edc.png",
-    "static/media/CJSF1.png": "/About/static/media/CJSF1.e1169ec832972004f798.png",
-    "static/media/headshot.jpeg": "/About/static/media/headshot.ce3731ed72535c600d30.jpeg",
-    "static/media/SimEmilyn_Resume.pdf": "/About/static/media/SimEmilyn_Resume.27cc04d184dc550e118f.pdf",
-    "static/media/SFU4.png": "/About/static/media/SFU4.1bd000fcf3500ca5f3c5.png",
-    "index.html": "/About/index.html",
-    "main.3f6f26c1.css.map": "/About/static/css/main.3f6f26c1.css.map",
-    "main.1b1dc75b.js.map": "/About/static/js/main.1b1dc75b.js.map"
+    "main.css": "/emilynsim.ubc/About/static/css/main.3f6f26c1.css",
+    "main.js": "/emilynsim.ubc/About/static/js/main.9e9fa2fc.js",
+    "static/media/SFU2.png": "/emilynsim.ubc/About/static/media/SFU2.4fa563aeee97342a64cb.png",
+    "static/media/SFU1.png": "/emilynsim.ubc/About/static/media/SFU1.7c247be51bfe32611a92.png",
+    "static/media/Skoden1.png": "/emilynsim.ubc/About/static/media/Skoden1.abce685c4a514c7531f2.png",
+    "static/media/Skoden2.png": "/emilynsim.ubc/About/static/media/Skoden2.9de8a64bd7b5edb62631.png",
+    "static/media/Skoden3.png": "/emilynsim.ubc/About/static/media/Skoden3.9553db19d6061c0c4edc.png",
+    "static/media/CJSF1.png": "/emilynsim.ubc/About/static/media/CJSF1.e1169ec832972004f798.png",
+    "static/media/headshot.jpeg": "/emilynsim.ubc/About/static/media/headshot.ce3731ed72535c600d30.jpeg",
+    "static/media/SimEmilyn_Resume.pdf": "/emilynsim.ubc/About/static/media/SimEmilyn_Resume.27cc04d184dc550e118f.pdf",
+    "static/media/SFU4.png": "/emilynsim.ubc/About/static/media/SFU4.1bd000fcf3500ca5f3c5.png",
+    "index.html": "/emilynsim.ubc/About/index.html",
+    "main.3f6f26c1.css.map": "/emilynsim.ubc/About/static/css/main.3f6f26c1.css.map",
+    "main.9e9fa2fc.js.map": "/emilynsim.ubc/About/static/js/main.9e9fa2fc.js.map"
   },
   "entrypoints": [
     "static/css/main.3f6f26c1.css",
-    "static/js/main.1b1dc75b.js"
+    "static/js/main.9e9fa2fc.js"
   ]
 }
