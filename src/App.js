@@ -244,7 +244,7 @@ const App = () => {
 
             <Routes>
 
-                <Route path='/About' element={<App />}/>
+                <Route path='/About' element={<About />}/>
                 <Route path='/Technical' element={<Technical />} />
                 <Route path='/Communications' element={<Communications />} />
 
