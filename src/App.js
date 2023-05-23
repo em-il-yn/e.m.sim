@@ -225,14 +225,7 @@ const About = () => {
 }
 
 const App = () => {
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        navigate('/About');
-    }, [navigate]);
-
     return (
-
         <div>
             <Cursor />
             <header className="routes">
