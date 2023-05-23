@@ -228,7 +228,7 @@ const App = () => {
     useEffect(() => {
         window.location.href = '/';
       }, []);
-      
+
     return (
 
         <div>
@@ -244,7 +244,7 @@ const App = () => {
 
             <Routes>
 
-                <Route path='/' element={<About />}/>
+                <Route path='/About' element={<App />}/>
                 <Route path='/Technical' element={<Technical />} />
                 <Route path='/Communications' element={<Communications />} />
 
