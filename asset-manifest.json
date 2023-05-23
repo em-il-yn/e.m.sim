@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emilynsim.ubc/static/css/main.3f6f26c1.css",
-    "main.js": "/emilynsim.ubc/static/js/main.9a88bff4.js",
+    "main.js": "/emilynsim.ubc/static/js/main.e83a516c.js",
     "static/media/SFU2.png": "/emilynsim.ubc/static/media/SFU2.4fa563aeee97342a64cb.png",
     "static/media/SFU1.png": "/emilynsim.ubc/static/media/SFU1.7c247be51bfe32611a92.png",
     "static/media/Skoden1.png": "/emilynsim.ubc/static/media/Skoden1.abce685c4a514c7531f2.png",
@@ -13,10 +13,10 @@
     "static/media/SFU4.png": "/emilynsim.ubc/static/media/SFU4.1bd000fcf3500ca5f3c5.png",
     "index.html": "/emilynsim.ubc/index.html",
     "main.3f6f26c1.css.map": "/emilynsim.ubc/static/css/main.3f6f26c1.css.map",
-    "main.9a88bff4.js.map": "/emilynsim.ubc/static/js/main.9a88bff4.js.map"
+    "main.e83a516c.js.map": "/emilynsim.ubc/static/js/main.e83a516c.js.map"
   },
   "entrypoints": [
     "static/css/main.3f6f26c1.css",
-    "static/js/main.9a88bff4.js"
+    "static/js/main.e83a516c.js"
   ]
 }
