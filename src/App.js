@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as useNavigate, Router, Routes, Route, Link } from 'react-router-dom';
 import Cursor from "./Events/cursorEvent";
 
 
@@ -225,9 +225,11 @@ const About = () => {
 }
 
 const App = () => {
+    const navigate = useNavigate();
+
     useEffect(() => {
-        window.location.href = '/About';
-      }, []);
+        navigate('/About');
+    }, [navigate]);
 
     return (
 
