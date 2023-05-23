@@ -78,11 +78,11 @@ const Communications = () => {
         // </section>
         <section class="gallery">
             <p class="tech">Communications Experience</p>
-            <p class="comms">My background in communications has allowed me to develop skills with technical tools and platforms to effectively convey messages. I am proficient in Adobe Photoshop, InDesign, and After Effects. I have experience ranging in social media, copywriting, press releases, and have successfully increased engagement through the deployment of strategic multi-platform campaigns.</p>
+            <p class="comms">I received a Bachelor of Arts from Simon Fraser University in 2021 where I majored in Communications and minored in Fine Arts. My creaetive background in arts and communications has allowed me to approach computer science from a uniquely interdiscinplinary perspective. Here is a portfolio of a few of my designs.</p>
 
             <div class="image-container">
                 <div class="image-overlay">
-                    <p class="image-description">Skoden 1</p>
+                    <p class="image-description">Skoden Indigenous Film Festival 2021</p>
                 </div>
                 <img src={require('./resources/Skoden1.png')} class="comms"></img>
 
@@ -91,42 +91,42 @@ const Communications = () => {
             <div class="image-container">
                 <img src={require('./resources/Skoden2.png')} class="comms"></img>
                 <div class="image-overlay">
-                    <p class="image-description">Skoden 2</p>
+                    <p class="image-description">Skoden Indigenous Film Festival 2021</p>
                 </div>
             </div>
 
             <div class="image-container">
                 <img src={require('./resources/Skoden3.png')} class="comms"></img>
                 <div class="image-overlay">
-                    <p class="image-description">Skoden 3</p>
+                    <p class="image-description">Skoden Indigenous Film Festival 2021</p>
                 </div>
             </div>
 
             <div class="image-container">
                 <img src={require('./resources/SFU1.png')} class="comms"></img>
                 <div class="image-overlay">
-                    <p class="image-description">SFU 1</p>
+                    <p class="image-description">SFU 2020</p>
                 </div>
             </div>
 
             <div class="image-container">
                 <img src={require('./resources/SFU2.png')} class="comms"></img>
                 <div class="image-overlay">
-                    <p class="image-description">SFU 2</p>
+                    <p class="image-description">SFU 2020</p>
                 </div>
             </div>
 <section class="gallery-vert">
             <div class="image-container">
                 <img src={require('./resources/SFU4.png')} class="comms"></img>
                 <div class="image-overlay">
-                    <p class="image-description">SFU 4</p>
+                    <p class="image-description">SFU 2020</p>
                 </div>
             </div>
 
             <div class="image-container">
                 <img src={require('./resources/CJSF1.png')} class="comms"></img>
                 <div class="image-overlay">
-                    <p class="image-description">CJSF 1</p>
+                    <p class="image-description">CJSF 2021</p>
                 </div>
             </div>
             </section>
@@ -210,7 +210,7 @@ const About = () => {
                     <section class="columnEvil" style={{alignSelf: 'center'}}>
                         <h1>Emilyn Sim</h1>
                         <h2 style={{ alignSelf: 'left' }}>UBC Computer Science</h2>
-                        <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, BASH, HTML, CSS, and ReactJS. </p>
+                        <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, JavaScript, ReactJS, HTML, CSS, BASH, and ReactJS. </p>
                     </section>
                     <section class="column">
                         <img class="headshot" src={require('./resources/headshot.jpeg')}></img>
