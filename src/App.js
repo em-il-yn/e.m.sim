@@ -226,7 +226,7 @@ const About = () => {
 
 const App = () => {
     useEffect(() => {
-        window.location.href = '/';
+        window.location.href = '/About';
       }, []);
 
     return (
@@ -236,7 +236,7 @@ const App = () => {
             <header className="routes">
                 <p className="pagetop">Emilyn Sim</p>
                 <nav>
-                    <Button text="About Me" to="/" />
+                    <Button text="About Me" to="/About" />
                     <Button text="Technical Experience" to="/Technical" />
                     <Button text="Communications Experience" to="/Communications" />
                 </nav>
