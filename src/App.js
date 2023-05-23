@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as useNavigate, Router, Routes, Route, Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { BrowserRouter as Redirect, Routes, Route, Link } from 'react-router-dom';
 import Cursor from "./Events/cursorEvent";
 
 
@@ -225,7 +225,9 @@ const About = () => {
 }
 
 const App = () => {
+
     return (
+
         <div>
             <Cursor />
             <header className="routes">
@@ -238,11 +240,10 @@ const App = () => {
             </header>
 
             <Routes>
-
+                <Route path="/" element={<About />} />
                 <Route path='/About' element={<About />}/>
                 <Route path='/Technical' element={<Technical />} />
                 <Route path='/Communications' element={<Communications />} />
-
             </Routes>
             <Footer className="page" />
         </div>
