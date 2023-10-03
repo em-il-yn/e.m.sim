@@ -147,8 +147,8 @@ body {
   font-size: 16px;
   font-size: 1.6rem;
   font-family: Trebuchet MS;
-  color: #DDCCDF;
-  background-color: #23481E;
+  color: #0072E7;
+  background-color: #000000;
   position: relative;
   line-height: 2rem;
   margin: 0rem 1.5rem 1.5rem 0rem;
@@ -159,7 +159,7 @@ header.routes{
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #23481E;
+  background: #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -174,7 +174,7 @@ header p.pagetop {
   font-size: 20px;
   padding: 0rem 0rem 0rem 1rem;
   white-space: nowrap;
-  color: #DDCCDF;
+  color: #0072E7;
 }
 
 header nav {
@@ -189,7 +189,7 @@ header nav {
 header nav .btn {
   font-family: Trebuchet MS;
   font-size: 15px;
-  color: #DDCCDF;
+  color: #0072E7;
   position: relative;
   box-sizing: border-box;
   display: flex;
@@ -210,8 +210,8 @@ header nav .btn {
 }
 
 header nav .btn:hover {
-  color: #23481E;
-  background-color: #DDCCDF;
+  color: #000000;
+  background-color: #0072E7;
   font-weight: bold;
   cursor: pointer;
 }
@@ -227,7 +227,7 @@ header nav .btn:hover {
 main {
   padding: 3rem;
   margin: 0 auto;
-  background: #23481E;
+  background: #000000;
   font-family: Trebuchet MS;
   overflow-x: hidden;
 }
@@ -275,7 +275,7 @@ section.columnEvil {
   text-align: center !important;
   width: 100%;
   margin: 0 auto;
-  background: #23481E;
+  background: #000000;
   font-family: Trebuchet MS;
   padding-top: 1rem;
 }
@@ -288,13 +288,13 @@ main section article {
 
 h2, h3, p {
   padding-bottom: 1rem;
-  color: #DDCCDF;
+  color: #0072E7;
   text-align: left;
 }
 
 h2 {
   font: 20px 'Helvetica Neue';
-  color: #DDCCDF;
+  color: #0072E7;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left !important;
   width:100%;
@@ -303,13 +303,13 @@ h2 {
 h3 {
   font-size: 2rem;
   line-height: 3.6rem; 
-  color: #DDCCDF;
+  color: #0072E7;
 }
 
 p {
   font-family: Trebuchet MS;
   padding-bottom: 0.5rem;
-  color: #DDCCDF;
+  color: #0072E7;
 }
 
 .comms {
@@ -334,7 +334,7 @@ p {
   font-family: Trebuchet MS;
   font-size: 1.2rem;
   padding-bottom: 0.2rem;
-  color: #DDCCDF;
+  color: #0072E7;
   text-decoration: none;
   position: relative;
   padding-top:0.2rem;
@@ -348,13 +348,13 @@ p {
 
 ul.accordion-items-container {
   box-sizing: border-box;
-  background: #23481E;
+  background: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   font: 400 15px Trebuchet MS;
-  color: #DDCCDF;
+  color: #0072E7;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -365,9 +365,9 @@ li.accordion-item {
   height: 6rem;
   width: 100%;
   align-items: flex-start;
-  background: #23481E;
+  background: #000000;
   font: 400 15px Trebuchet MS;
-  color: #DDCCDF;
+  color: #0072E7;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   outline: none !important;
 }
@@ -376,10 +376,10 @@ div.accordian-divider {
   height: 1px;
   top: 6rem;
   width: 100%;
-  background: #DDCCDF;
+  background: #0072E7;
   transform: scaleY(-1);
   font: 400 15px Trebuchet MS;
-  color: #DDCCDF;
+  color: #0072E7;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -388,11 +388,11 @@ b.accordian {
   align-items: center;
   height: 6rem;
   width: 100%;
-  background: #23481E;
+  background: #000000;
   font: 400 15px Trebuchet MS !important;
   text-decoration: none !important;
   text-align: left !important;
-  color: #DDCCDF;
+  color: #0072E7;
   outline: none !important;
 }
 
@@ -400,7 +400,7 @@ b.accordian {
   font: 20px 'Helvetica Neue';
   position: absolute;
 
-  color: #DDCCDF;
+  color: #0072E7;
   text-align: left;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -410,7 +410,7 @@ body h1 {
   width: 100%;
   font-family: Trebuchet MS;
   letter-spacing: -0.3rem;
-  color: #DDCCDF;
+  color: #0072E7;
   white-space: nowrap;
   line-height: 9rem;
   height:9rem;
@@ -422,7 +422,7 @@ p.cs {
   font-family: Trebuchet MS;
   letter-spacing: -0.2px;
   font-size: 30px;
-  color: #DDCCDF;
+  color: #0072E7;
   padding-bottom: 3rem;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -439,7 +439,7 @@ skillContainer {
   margin-left: 1rem;
   width: 30rem;
   height: 37rem;;
-  border: 2px solid #DDCCDF;
+  border: 2px solid #0072E7;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 5%;
 }
@@ -516,7 +516,7 @@ h3.circle {
 }
 
 h3.skills {
-  border-top: 1px solid #DDCCDF !important;
+  border-top: 1px solid #0072E7 !important;
   text-align: center;
   font-size: 1.8rem;
   line-height: 2.5rem;
@@ -547,7 +547,7 @@ ul.bullet-points {
 }
 
 footer.page {
-  border-top: 1px solid #DDCCDF;
+  border-top: 1px solid #0072E7;
   position: absolute;
   left: 0;
   right: 0;
@@ -572,7 +572,7 @@ p.info {
   text-align: center;
   letter-spacing: -0.256px;
 
-  color: #23481E;
+  color: #000000;
 
 
   /* Inside auto layout */
@@ -589,7 +589,7 @@ p.info {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #DDCCDF;
+  background-color: #0072E7;
   transform: translate(-10px, -10px);
   pointer-events: none;
   z-index: 9999;

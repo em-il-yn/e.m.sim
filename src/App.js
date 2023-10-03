@@ -9,8 +9,8 @@ const Button = (props) => {
     const btnStyle = {
         fontFamily: 'Trebuchet MS',
         fontSize: '15px',
-        color: isHovered ? '#23481E' : '#DDCCDF',
-        backgroundColor: isHovered ? '#DDCCDF' : 'transparent',
+        color: isHovered ? '#000000' : '#0072E7',
+        backgroundColor: isHovered ? '#0072E7' : 'transparent',
         fontWeight: isHovered ? 'bold' : 'normal',
         position: 'relative',
         boxSizing: 'border-box',
@@ -19,7 +19,7 @@ const Button = (props) => {
         padding: '0.5rem',
         margin: '0rem 0rem 1rem 1rem',
         width: '14.5em',
-        border: '1px solid #E5DFF5',
+        border: '1px solid #0072E7',
         filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))',
         borderRadius: '5px',
         transition:
