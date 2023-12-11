@@ -10,7 +10,7 @@ const About = () => {
                         <p>I am a UBC Computer Science student with a professional background in strategic communications. I have xperience with Java, JavaScript, BASH, HTML, CSS, Racket, C++, C, PHP, and R. Explore my website for samples of my work.</p>
                     </section>
                     <section class="column">
-                        <a class="links" href={require('./../Resources/SimEmilyn_Resume.pdf')} alt="Resume">Resume</a>
+                        <a class="links" href={require('./../Resources/SimEM_Resume.pdf')} alt="Resume">Resume</a>
                         <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
                         <a class="links" href="https://github.com/em-il-yn">GitHub</a>
                     </section>
