@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/e.m.sim/static/css/main.ef7eca90.css",
-    "main.js": "/e.m.sim/static/js/main.f0389584.js",
+    "main.js": "/e.m.sim/static/js/main.5175e5e6.js",
     "static/media/SFU2.png": "/e.m.sim/static/media/SFU2.4fa563aeee97342a64cb.png",
     "static/media/SFU1.png": "/e.m.sim/static/media/SFU1.7c247be51bfe32611a92.png",
     "static/media/Skoden1.png": "/e.m.sim/static/media/Skoden1.abce685c4a514c7531f2.png",
@@ -12,10 +12,10 @@
     "static/media/SimEM_Resume.pdf": "/e.m.sim/static/media/SimEM_Resume.da553b2272947616e315.pdf",
     "index.html": "/e.m.sim/index.html",
     "main.ef7eca90.css.map": "/e.m.sim/static/css/main.ef7eca90.css.map",
-    "main.f0389584.js.map": "/e.m.sim/static/js/main.f0389584.js.map"
+    "main.5175e5e6.js.map": "/e.m.sim/static/js/main.5175e5e6.js.map"
   },
   "entrypoints": [
     "static/css/main.ef7eca90.css",
-    "static/js/main.f0389584.js"
+    "static/js/main.5175e5e6.js"
   ]
 }
