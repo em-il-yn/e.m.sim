@@ -58,24 +58,6 @@ const Footer = () => {
 }
 const Communications = () => {
     return (
-        // <section class="column">
-        //     <section class="column">
-        //         <p class="tech">Communications Experience</p>
-        //         <p class="comms">My background in communications has allowed me to develop skills with technical tools and platforms to effectively convey messages. I am proficient in Adobe Photoshop, InDesign, and After Effects. I have experience ranging in social media, copywriting, press releases, and have successfully increased engagement through the deployment of strategic multi-platform campaigns.  </p>
-        //     </section>
-        //     <section class="row">
-        //         <img src={require('./resources/Skoden1.png')} class="comms"></img>
-        //         <img src={require('./resources/Skoden2.png')} class="comms"></img>
-        //         <img src={require('./resources/Skoden3.png')} class="comms"></img>
-        //     </section>
-        //     <section class="row">
-        //             <img src={require('./resources/SFU1.png')} class="comms"></img>
-        //             <img src={require('./resources/SFU2.png')} class="comms"></img>
-        //     </section>
-        //     <section class="row">
-        //             <img src={require('./resources/CJSF1.png')} class="comms"></img>
-        //     </section>
-        // </section>
         <section class="gallery">
             <p class="tech">Communications Experience</p>
             <p class="comms">I received a Bachelor of Arts from Simon Fraser University in 2021 where I majored in Communications and minored in Fine Arts. My creaetive background in arts and communications has allowed me to approach computer science from a uniquely interdiscinplinary perspective. Here is a portfolio of a few of my designs.</p>
@@ -213,7 +195,6 @@ const About = () => {
                         <p>I am a computer science student at UBC with a background in communications. I have a passion for technology and a creative problem-solving. My technical skills include Java, JavaScript, ReactJS, HTML, CSS, BASH, and ReactJS. </p>
                     </section>
                     <section class="column">
-                        <img class="headshot" src={require('./resources/headshot.jpeg')}></img>
                         <a class="links" href={require('./resources/SimEmilyn_Resume.pdf')} alt="Resume">Resume</a>
                         <a class="links" href="https://www.linkedin.com/in/emilyn-sim/">LinkedIn</a>
                         <a class="links" href="https://github.com/em-il-yn">GitHub</a>
