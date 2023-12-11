@@ -4,7 +4,7 @@ const Communications = () => {
     return (
         <section class="gallery">
             <p class="tech">Communications Experience</p>
-            <p class="comms">I received a Bachelor of Arts from Simon Fraser University in 2021 where I majored in Communications and minored in Fine Arts. My creaetive background in arts and communications has allowed me to approach computer science from a uniquely interdiscinplinary perspective. Here is a portfolio of a few of my designs.</p>
+            <p class="comms">I obtained a degree in Communication from SFU. My work experience demonstrates proven effective professional and strategic communication skills. I have demonstrated leadership, and creativity in roles supervising and collaborating with a communications team. Here are some samples of my design work.</p>
 
             <div class="image-container">
                 <div class="image-overlay">

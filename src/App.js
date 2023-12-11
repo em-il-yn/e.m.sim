@@ -17,7 +17,7 @@ const App = () => {
                 <p className="pagetop">E.M. Sim</p>
                 <nav>
                     <Button text="About Me" to="/About" />
-                    <Button text="Technical Experience" to="/Technical" />
+                    <Button text="Technical Projects" to="/Technical" />
                     <Button text="Communications Experience" to="/Communications" />
                 </nav>
             </header>

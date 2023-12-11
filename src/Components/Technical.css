@@ -1,0 +1,61 @@
+/* Technical.css */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-container {
+    border: 2px solid #0072E7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-date {
+    font-weight: bold;
+}
+
+.project-organization {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.project-skills ul {
+    list-style: none;
+    padding: 7px;
+}
+
+.project-skills li {
+    margin-bottom: 7px;
+    list-style-type: disc; 
+}
+
+.project-container a {
+    color: inherit; 
+}
+
+.project-container hr {
+    margin: 10px 0; 
+    border: none;
+    border-top: 1px solid #0072E7;
+}
